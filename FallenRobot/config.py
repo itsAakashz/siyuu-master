@@ -1,0 +1,51 @@
+class Config(object):
+    LOGGER = True
+
+    # Get this value from my.telegram.org/apps
+    API_ID = "11457698"
+    API_HASH = "5bfd698491bd1a495c2acd0842c65b90"
+
+    CASH_API_KEY = " 8DIIPVROWD8S2CLJ"  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
+
+    DATABASE_URL = "postgres://bjeemcfb:hRBpgvbMx7j4VkigUgmHOmPcoK1lVP4t@salt.db.elephantsql.com/bjeemcfb"  # A sql database url from elephantsql.com
+
+    EVENT_LOGS = (-1001683658964)  # Event logs channel to note down important bot level events
+
+    MONGO_DB_URI = "mongodb+srv://ok:ok@cluster0.olbze.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"  # Get ths value from cloud.mongodb.com
+
+    # Telegraph link of the image which will be shown at start command.
+    START_IMG = " https://te.legra.ph/file/f5fd6e9c08624ffbe9d6a.jpg"
+
+    SUPPORT_CHAT = "Fun_talks"  # Your Telegram support group chat username where your users will go and bother you
+
+    TOKEN = "5504112672:AAEdDC91pKXZD12i1n6_rkYCz3o8bBDf38s"  # Get bot token from @BotFather on Telegram
+
+    TIME_API_KEY = "OJDD3DCONB4W"  # Get this value from https://timezonedb.com/api
+
+    OWNER_ID = 1097379245  # User id of your telegram account (Must be integer)
+
+    # Optional fields
+    BL_CHATS = []  # List of groups that you want blacklisted.
+    DRAGONS = []  # User id of sudo users
+    DEV_USERS = []  # User id of dev users
+    DEMONS = []  # User id of support users
+    TIGERS = []  # User id of tiger users
+    WOLVES = []  # User id of whitelist users
+
+    ALLOW_CHATS = True
+    ALLOW_EXCL = True
+    DEL_CMDS = True
+    INFOPIC = True
+    LOAD = []
+    NO_LOAD = []
+    STRICT_GBAN = True
+    TEMP_DOWNLOAD_DIRECTORY = "./"
+    WORKERS = 8
+
+
+class Production(Config):
+    LOGGER = True
+
+
+class Development(Config):
+    LOGGER = True
