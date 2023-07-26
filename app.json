@@ -61,27 +61,27 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1356469075"
+         "value": " 1097379245"
       },
       "START_IMG": {
          "description": "Telegraph link of the image which will be shown at start command.",
-         "required": true,
+         "required": false,
          "value": ""
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Fallen Support than consider you made an enemy.",
-         "required": true,
-         "value": "DevilsHeavenMF"
+         "required": false,
+         "value": ""
       },
       "TIME_API_KEY": {
          "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
          "required": true,
-         "value": ""
+         "value": "OJDD3DCONB4W"
       },
       "TOKEN": {
          "description": "Get bot token from @BotFather on TG",
          "required": true,
-         "value": ""
+         "value": "1814993176:AAFVlLrb_UWaC_b_Rph_vEHWJe3moCkIkAM"
       }
    }
 }
