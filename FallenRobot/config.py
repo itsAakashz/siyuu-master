@@ -16,9 +16,9 @@ class Config(object):
     # Telegraph link of the image which will be shown at start command.
     START_IMG = " https://te.legra.ph/file/f5fd6e9c08624ffbe9d6a.jpg"
 
-    SUPPORT_CHAT = "Fun_talks"  # Your Telegram support group chat username where your users will go and bother you
+    SUPPORT_CHAT = "#"  # Your Telegram support group chat username where your users will go and bother you
 
-    TOKEN = "1814993176:AAHHUQ_APS4qs-1qkteWQQ28DU04idfol4E"  # Get bot token from @BotFather on Telegram
+    TOKEN = "6356489499:AAFdfwHwAtuLaV1-SiSZcbjQOZ-3bIFBFYM"  # Get bot token from @BotFather on Telegram
 
     TIME_API_KEY = "OJDD3DCONB4W"  # Get this value from https://timezonedb.com/api
 
